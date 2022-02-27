@@ -1,0 +1,16 @@
+div nav-bar {
+    text-align:center;
+    padding: 30%;
+}
+h1 {
+    background-color:#979a9c;
+    color:rgb(233, 231, 225);
+    height: "200px";
+    width: "auto";
+}
+button bordered-button {
+    border-style: solid 1px;
+    color:rgb(156, 156, 238);
+    background-color:rgb(97, 97, 100);
+    border-radius:50;
+}
