@@ -1,0 +1,41 @@
+div nav-bar {
+    
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align:center;
+    justify-items: center;
+    align-items:center ;
+    padding: 30%;
+}
+h1 {
+    display: inline-block;
+    flex-wrap: wrap;
+    color:rgb(57, 117, 235);
+    height: "200px";
+    width:100%;
+    text-align: center;
+}
+button {
+    border-style: solid 1px;
+    color:rgb(245, 243, 241);
+    background-color:rgb(65,105,225);
+    border-radius:50;
+}
+
+table,thead,tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+body {
+    background-color: rgba(255, 255, 160);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
