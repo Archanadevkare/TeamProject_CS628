@@ -1,0 +1,26 @@
+{
+  "name": "employee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js,graphql -w .env server apiserver.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CS628",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^3.6.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.17.3",
+    "graphql": "^16.3.0",
+    "mongodb": "^4.4.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7"
+  }
+}
